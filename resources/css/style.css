@@ -22,6 +22,33 @@ div {
   border: 1px solid black;
 }
 
+
+footer{
+  background-color: MediumAquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  flex-direction: column;
+}
+
+footer nav {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+footer .title{
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
 .story{
 
   font-size: 17px;
