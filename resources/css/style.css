@@ -1,4 +1,33 @@
-h1 {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
   font-weight: bold;
-  font-size: 50px;
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+
+.logo{
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+    width: 70px;
+    height: 60px;
+    margin-right: 12px;
+}
+
+nav{
+
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
 }
